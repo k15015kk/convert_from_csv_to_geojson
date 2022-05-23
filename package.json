@@ -1,0 +1,14 @@
+{
+  "name": "from_csv_to_geojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "from_csv_to_geojson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.0.4"
+  }
+}
