@@ -3,17 +3,18 @@
 const fs = require('fs');
 const {parse} = require('csv-parse/sync');
 
+/* csv読み込み */
+
 const target_csv_file = 'sample';
-
 const csv_data = fs.readFileSync('csv/' + target_csv_file + '.csv');
-
 const records = parse(csv_data, {
     columns: true,
 });
 
-console.log(records);
+/* geojson変換 */
 
 const features = records.map((data) => {
+
     const geometry = {
         "type": "Point",
         "coordinates": [
@@ -48,6 +49,8 @@ const geojson = {
     "type": "FeatureCollection",
     "features": features
 }
+
+/* geojson生成 */
 
 const geojson_data = JSON.stringify(geojson, null, '  ')
 fs.writeFileSync('geojson/' + target_csv_file + '.geojson', geojson_data)
