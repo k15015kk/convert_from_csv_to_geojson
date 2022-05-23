@@ -33,7 +33,7 @@ const features = records.map((data) => {
         "speedAccuracy": parseFloat(data.speedAccuracy),
         "course": parseFloat(data.course),
         "courseAccuracy": parseFloat(data.courseAccuracy),
-        "timestamp": parseFloat(data.timestamp)
+        "timestamp": data.timestamp
     }
 
     const feature = {
@@ -50,7 +50,7 @@ const geojson = {
     "features": features
 }
 
-/* geojson生成 */
+/* geojson出力 */
 
 const geojson_data = JSON.stringify(geojson, null, '  ')
 fs.writeFileSync('geojson/' + target_csv_file + '.geojson', geojson_data)

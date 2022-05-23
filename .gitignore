@@ -1,3 +1,5 @@
 node_modules
 csv/*.csv
+!csv/sample.csv
 geojson/*.geojson
+!geojson/sample.geojson

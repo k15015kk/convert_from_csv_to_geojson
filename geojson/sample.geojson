@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70363282628827,
+          35.65549175170059
+        ]
+      },
+      "properties": {
+        "altitude": 19.426405295729637,
+        "ellipsoidalAltitude": 54.84926448762417,
+        "floor": 0,
+        "horizontalAccuracy": 14.403663567632677,
+        "vericalAccuracy": 9.846588705005914,
+        "speed": 40.73565392782766,
+        "speedAccuracy": 1.6299980462732715,
+        "course": 324.0670008905995,
+        "courseAccuracy": 6.901464437345791,
+        "timestamp": "2022-05-21T10:21:25Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7035656695216,
+          35.6555704974741
+        ]
+      },
+      "properties": {
+        "altitude": 19.380472601391375,
+        "ellipsoidalAltitude": 54.803331793285906,
+        "floor": 0,
+        "horizontalAccuracy": 14.40840227055593,
+        "vericalAccuracy": 9.839653312232992,
+        "speed": 39.08210710036443,
+        "speedAccuracy": 1.6928700021188081,
+        "course": 324.2867128835289,
+        "courseAccuracy": 7.086724839531732,
+        "timestamp": "2022-05-21T10:21:26Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70348180506141,
+          35.65566212986316
+        ]
+      },
+      "properties": {
+        "altitude": 19.684653443284333,
+        "ellipsoidalAltitude": 55.107512635178864,
+        "floor": 0,
+        "horizontalAccuracy": 14.436394985910637,
+        "vericalAccuracy": 9.79853729420229,
+        "speed": 38.809860943349136,
+        "speedAccuracy": 1.7713984211510183,
+        "course": 323.38973763924173,
+        "courseAccuracy": 7.8926599181493815,
+        "timestamp": "2022-05-21T10:21:27Z"
+      }
+    }
+  ]
+}
